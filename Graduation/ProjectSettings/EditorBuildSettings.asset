@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Test-01-Model-Optimization.unity
+    guid: 4b58bb060dff7c94395bf3f911f31b39
   m_configObjects: {}

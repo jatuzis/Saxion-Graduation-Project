@@ -12,9 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 315ffe2a4859447e87bd0c041086908f, type: 3}
   m_Name: '[Readme]'
   m_EditorClassIdentifier: 
-  flatKitVersion: 2.1.5
-  urpVersionInstalled: 7.5.3
-  urpVersionLatest: 7.5.3
-  unityVersion: 2019.4.21f1
-  flatKitInstalled: 1
-  urpFoundText: yes
