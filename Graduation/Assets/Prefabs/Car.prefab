@@ -12,14 +12,14 @@ GameObject:
   - component: {fileID: 4273241185399457191}
   - component: {fileID: 8531411924816285821}
   - component: {fileID: 7891645542727075509}
-  - component: {fileID: 5373526370180662935}
+  - component: {fileID: 2262169373150582686}
   m_Layer: 0
   m_Name: Car_UnOptimized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1845462530144256970
 Transform:
   m_ObjectHideFlags: 0
@@ -106,7 +106,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!64 &5373526370180662935
+--- !u!64 &2262169373150582686
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +117,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4730039013618581628, guid: d378cfed9f0ab024587992d5a087d261, type: 3}
 --- !u!1 &5012477103641288524
@@ -164,14 +164,14 @@ GameObject:
   - component: {fileID: 4215553273677873530}
   - component: {fileID: 1698554915764981494}
   - component: {fileID: 8439087288252910815}
-  - component: {fileID: 3164502182848357591}
+  - component: {fileID: 1129195478281154994}
   m_Layer: 0
   m_Name: Car_Optimized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4557026668067395414
 Transform:
   m_ObjectHideFlags: 0
@@ -255,8 +255,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!64 &3164502182848357591
-MeshCollider:
+--- !u!65 &1129195478281154994
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -265,7 +265,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4338912029350255385, guid: d378cfed9f0ab024587992d5a087d261, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2.5405183, y: 2.3542173, z: 5.464628}
+  m_Center: {x: 0, y: 0, z: 0}
