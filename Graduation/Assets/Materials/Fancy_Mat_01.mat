@@ -116,8 +116,8 @@ Material:
     - _TextureImpact: 1
     - _UVSec: 0
     - _UnityShadowMode: 0
-    - _UnityShadowPower: 0
-    - _UnityShadowSharpness: 10
+    - _UnityShadowPower: 1
+    - _UnityShadowSharpness: 1
     - _VertexColorsEnabled: 0
     - _ZWrite: 1
     m_Colors:
