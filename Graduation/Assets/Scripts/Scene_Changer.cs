@@ -7,6 +7,10 @@ public class Scene_Changer : MonoBehaviour
 {
     [SerializeField]
     private int nextSceneIndex;
+    [SerializeField]
+    private bool overRide = false;
+    [SerializeField]
+    private int newPreviousSceneIndex;
 
     public void NextScene()
     {
@@ -15,15 +19,16 @@ public class Scene_Changer : MonoBehaviour
 
     public void PreviousScene()
     {
-        int previousSceneIndex = nextSceneIndex - 1;
+        
 
-        if (previousSceneIndex <= 0)
+        if (overRide == true)
         {
-            //Do nothings
+            SceneManager.LoadScene(sceneBuildIndex: newPreviousSceneIndex);
         }
         else
         {
-            SceneManager.LoadScene(sceneBuildIndex: nextSceneIndex - 1);
+            SceneManager.LoadScene(sceneBuildIndex: nextSceneIndex - 2);
         }
+
     }
 }

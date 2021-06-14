@@ -41,4 +41,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/11-Test-05-OcclusionCulling-02.unity
     guid: 82db6fea9bdf4324d8e6b04822a12903
+  - enabled: 1
+    path: Assets/Scenes/12-Test-06-LOD-01.unity
+    guid: 470cb57e05bcf9e4bab598dd36f1be59
+  - enabled: 1
+    path: Assets/Scenes/13-Test-06-LOD-02.unity
+    guid: 02cbb92fb7b1db84bb5a6fce47f811e2
+  - enabled: 1
+    path: Assets/Scenes/14-Test-07-Baking-01.unity
+    guid: 41f1329c009203749b442e3677a91899
+  - enabled: 1
+    path: Assets/Scenes/15-Test-07-Baking-02.unity
+    guid: 528d4284fe1124f42801d9c8a00edd8f
+  - enabled: 1
+    path: Assets/Scenes/16-Test-08-Final-Boss-01.unity
+    guid: f60488afc3df9cb46a8b5db262a6f2f8
+  - enabled: 1
+    path: Assets/Scenes/17-Test-08-Final-Boss-02.unity
+    guid: 1e4b87fbcb4fb38448d2cc81c90245d6
   m_configObjects: {}
